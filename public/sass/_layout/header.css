@@ -1,0 +1,36 @@
+/* line 5, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+.no-padding {
+  padding: 0px; }
+
+/* line 8, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+.navLinks {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: bold; }
+  /* line 12, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+  .navLinks li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px; }
+
+/* line 20, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+.nav.navbar-nav li a {
+  color: #ffffff; }
+
+/* line 23, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+.nav.navbar-nav li a:hover {
+  color: #0958b9; }
+
+/* line 28, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+.navbar {
+  background-color: #000000;
+  border-color: #000000;
+  border-radius: 0px; }
+
+/* line 35, ../../../xampp/htdocs/nustyle/assets/sass/_layout/header.scss */
+.logo {
+  height: 50px;
+  width: 200px;
+  margin-top: -12px; }
+
+/*# sourceMappingURL=header.css.map */

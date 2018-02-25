@@ -1,0 +1,109 @@
+/* line 4, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.ftr {
+  background-color: #000000; }
+
+/* line 9, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.ftr__logo {
+  height: 50px;
+  width: 150px;
+  margin-left: -30px;
+  margin-top: 50px; }
+
+/* line 18, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.footer_hours h3 {
+  margin-top: 30px;
+  font-family: Josefin Slab;
+  font-size: 16px;
+  color: #0958b9;
+  text-align: left;
+  margin-left: -70px;
+  margin-bottom: 20px; }
+
+/* line 27, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.footer_hours p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: -180px; }
+
+/* line 36, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.footer_location h3 {
+  font-family: Josefin Slab;
+  font-size: 16px;
+  color: #0958b9;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: -70px; }
+
+/* line 45, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.footer_location p {
+  font-size: 14px;
+  color: #ffffff;
+  margin-left: -100px; }
+
+/* line 54, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.footer_contact h3 {
+  font-family: Josefin Slab;
+  font-size: 16px;
+  color: #0958b9;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: -150px;
+  margin-top: 30px; }
+
+/* line 63, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.footer_contact p {
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: -170px; }
+
+/* line 71, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.ftr_name p {
+  font-family: Josefin Slab;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: -70px; }
+
+/* line 80, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.ftr_email p {
+  font-family: Josefin Slab;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-left: -150px; }
+
+/* line 89, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.icon {
+  width: 20px;
+  height: 20px; }
+
+/* line 94, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.menu_icon {
+  margin-left: 50px;
+  margin-top: -10px; }
+
+/* line 100, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.menu_name {
+  font-family: Josefin Slab;
+  color: #ffffff; }
+  /* line 103, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+  .menu_name p {
+    padding-left: 30px;
+    font-size: 14px; }
+  /* line 107, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+  .menu_name h4 {
+    padding-left: 50px;
+    font-size: 14px;
+    margin-top: 3px; }
+  /* line 112, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+  .menu_name h5 {
+    padding-left: 50px;
+    font-size: 16px;
+    margin-top: 3px; }
+
+/* line 119, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer.scss */
+.name_icon {
+  margin-left: 50px;
+  margin-top: 5px; }
+
+/*# sourceMappingURL=footer.css.map */

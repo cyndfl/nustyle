@@ -1,0 +1,343 @@
+$White: #ffffff;
+$Blue: #0958b9;
+$Black: #000000;
+body {
+    background-color: $Black;
+}
+
+//head
+.appoint {
+    background-image: url(../../img/hero2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+}
+
+.appoint_overlay {
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    margin-top: -170px;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    p {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+//HAIR
+.hair {
+    background-repeat: no-repeat;
+    z-index: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+    
+  b {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 60px;
+        z-index: 2;
+        float: left;
+      margin-top: -130px;
+      margin-left: 20px;
+        position: relative;
+    }  
+}
+
+
+.hair_service {
+    .hair {
+        margin-left: -10px;
+        margin-top: 100px;
+        img {
+            height: 200px;
+            width: 100%;
+            opacity: 0.7;
+        }
+}
+}
+.modal {
+   
+    margin-left: -10px;
+    height: 500px;
+}
+
+.close {
+    color: $Blue;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content1 {
+    color: $Black;
+    background-image:url(../../img/hairbw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    
+    h4 {
+        font-family: Josefin Slab;
+        color: $Blue;
+        text-align: center;
+    }
+    p {
+        font-family: Josefin Sans;
+        font-size: 16px;
+    }
+  label{
+        color: $White;
+    } 
+} 
+
+//FOOT
+.foot {
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+    margin-top: 150px;
+      margin-left: -10px;
+    margin-top: 5px;
+  b {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 60px;
+        z-index: 2;
+        float: left;
+      margin-top: -130px;
+      margin-left: 20px;
+        position: relative;
+    }  
+}
+
+
+.foot_service {
+    .foot {
+        margin-left: -10px;
+        margin-top: -30px;
+        img {
+            height: 200px;
+            width: 100%;
+            opacity: 0.7;
+        }
+}
+}
+
+.modal {
+    margin-left: -10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content2 {
+    color: $Black;
+    background-image:url(../../img/hand&footbw.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+     h4 {
+        font-family: Josefin Slab;
+        color: $Blue;
+        text-align: center;
+    }
+    p {
+        font-family: Josefin Sans;
+        font-size: 16px;
+    }
+  label{
+        color: $White;
+    } 
+}
+
+//BODY
+.body {
+    background-repeat: no-repeat;
+   z-index: 0;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+    margin-top: 150px;
+    margin-left: -10px;
+    margin-top: 5px;
+   b {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 60px;
+        z-index: 2;
+        float: left;
+      margin-top: -130px;
+      margin-left: 20px;
+        position: relative;
+    }  
+}
+
+
+.body_service {
+    .body {
+        margin-left: -10px;
+        margin-top: -10px;
+        img {
+            height: 200px;
+            width: 100%;
+            opacity: 0.7;
+        }
+}
+}
+
+
+.modal {
+    margin-left: -10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content3 {
+    color: $Black;
+    background-image:url(../../img/bodybw.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+     h4 {
+        font-family: Josefin Slab;
+        color: $Blue;
+        text-align: center;
+    }
+    p {
+        font-family: Josefin Sans;
+        font-size: 16px;
+    }
+  label{
+        color: $White;
+    } 
+}
+
+
+//FACE
+.face {
+    background-repeat: no-repeat;
+    
+    display: block;
+   
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+
+   b {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 60px;
+        z-index: 2;
+        float: left;
+      margin-top: -150px;
+      margin-left: 20px;
+        position: relative;
+    }  
+}
+
+
+.face_service {
+    .face {
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-bottom: 50px;
+        img {
+            height: 200px;
+            width: 100%;
+            opacity: 0.7;
+        }
+}
+}
+
+.modal {
+    margin-left: -10px;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content4 {
+    color: $Black;
+    background-image:url(../../img/facebw.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+     h4 {
+        font-family: Josefin Slab;
+        color: $Blue;
+        text-align: center;
+    }
+    p {
+        font-family: Josefin Sans;
+        font-size: 16px;
+    }
+  label{
+        color: $White;
+    } 
+}

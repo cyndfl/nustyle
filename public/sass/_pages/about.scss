@@ -1,0 +1,99 @@
+$White: #ffffff;
+$Blue: #0958b9;
+$Black: #000000;
+.about_pic {
+    background-image: url(../../img/hero2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+}
+
+.about_overlay {
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    margin-top: -170px;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    p {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 45px;
+        text-align: center;
+        padding-top: 50px;
+    }
+}
+
+.about_text {
+    background-color: $Black;
+    height: 200px;
+    padding-top: 50px;
+    p {
+        padding-top: 50px;
+        padding-left: 90px;
+        font-family: Josefin Sans;
+        color: $White;
+        font-size: 18px;
+        text-align: inherit;
+    }
+    img {
+        height: 170px;
+        width: 250px;
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+}
+
+.owner {
+    background-color: $Black;
+    height: 550px;
+    margin-top: -20px;
+    padding-top: 180px;
+    h3 {
+        font-family: Josefin Slab;
+        color: $White;
+        text-align: center;
+        margin-top: -10px;
+    }
+    p {
+        font-family: Josefin Sans;
+        color: $White;
+        font-size: 18px;
+        text-align: inherit;
+        padding-left: 120px;
+        padding-right: 5px;
+        padding-top: 30px;
+    }
+    img {
+        height: 230;
+        width: 150px;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+    h1 {
+        font-family: Josefin Slab;
+        color: $White;
+        font-size: 17px;
+        margin-top: -80px;
+        margin-left: -240px;
+    }
+}
+
+.blockquote {
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: $Blue;
+    border-left-style: none;
+    width: 275px;
+    margin-left: 500px;
+}

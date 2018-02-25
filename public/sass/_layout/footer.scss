@@ -1,0 +1,122 @@
+$White: #ffffff;
+$Blue: #0958b9;
+$Black: #000000;
+.ftr {
+    background-color: $Black;
+}
+
+//FTR_TEXTS
+.ftr__logo {
+    height: 50px;
+    width: 150px;
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+//FOOTER_HOURS
+.footer_hours {
+    h3 {
+        margin-top: 30px;
+        font-family: Josefin Slab;
+        font-size: 16px;
+        color: $Blue;
+        text-align: left;
+        margin-left: -70px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 14px;
+        color: $White;
+        margin-left: -180px;
+    }
+}
+
+//FOOTER_LOCATION
+.footer_location {
+    h3 {
+        font-family: Josefin Slab;
+        font-size: 16px;
+        color: $Blue;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-left: -70px;
+    }
+    p {
+        font-size: 14px;
+        color: $White;
+        margin-left: -100px;
+    }
+}
+
+//FOOTER_CONTACT
+.footer_contact {
+    h3 {
+        font-family: Josefin Slab;
+        font-size: 16px;
+        color: $Blue;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-left: -150px;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 15px;
+        color: $White;
+        margin-left: -170px;
+    }
+}
+
+.ftr_name {
+    p {
+        font-family: Josefin Slab;
+        font-size: 15px;
+        color: $White;
+        margin-left: -70px;
+    }
+}
+
+.ftr_email {
+    p {
+        font-family: Josefin Slab;
+        font-size: 16px;
+        color: $White;
+        text-align: center;
+        margin-left: -150px;
+    }
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.menu_icon {
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+//CONTACT NUMBER
+.menu_name {
+    font-family: Josefin Slab;
+    color: $White;
+    p {
+        padding-left: 30px;
+        font-size: 14px;
+    }
+    h4 {
+        padding-left: 50px;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    h5 {
+        padding-left: 50px;
+        font-size: 16px;
+        margin-top: 3px;
+    }
+}
+
+.name_icon {
+    margin-left: 50px;
+    margin-top: 5px;
+}

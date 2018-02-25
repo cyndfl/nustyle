@@ -1,0 +1,62 @@
+$White: #ffffff;
+$Blue: #0958b9;
+$Black: #000000;
+.ftr__bg {
+    background-image: url(../../img/hrbw.jpg);
+    background-size: cover;
+    background-position: top top;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 100%;
+    p {
+         font-family: Josefin Slab;
+        color: $White;
+        font-size: 20px;
+        padding-top: 50px;
+        text-align: center;
+    }
+}
+.btn_appt {
+    margin-top: -100px;
+    margin-left: 520px;
+    display:block;
+    a {
+        font-family: Josefin Sans;
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+        background-color: $Blue;
+        color: $White;
+        border-color: $Blue;
+        border-style: solid;
+        border-width: thin;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+    }
+    a:hover {
+        background-color: $White;
+        color: $Blue;
+        border-color: $White;
+    }
+}
+
+.ftr__overlay {
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: -154px;
+    height: 230px;
+    display: block;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+

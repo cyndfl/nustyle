@@ -1,0 +1,101 @@
+/* line 5, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+body {
+  background-color: #000000; }
+
+/* line 8, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+.serv_pic {
+  background-image: url(../../img/services.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+
+/* line 21, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+.serv_overlay {
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  margin-top: -170px;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  /* line 31, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+  .serv_overlay p {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px; }
+
+/* line 40, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+.port_nav {
+  margin-top: 100px;
+  background-color: #000000; }
+  /* line 43, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+  .port_nav a {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    border-left: solid;
+    border-right: solid;
+    border-radius: 0;
+    border-left-width: thin;
+    border-right-width: thin;
+    border-left-color: #0958b9;
+    border-right-color: #0958b9; }
+  /* line 55, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+  .port_nav li a:hover {
+    background-color: #ffffff; }
+
+/* line 60, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin-top: 50px; }
+
+/* line 67, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+.tbl-header {
+  background-color: #0958b9; }
+  /* line 69, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+  .tbl-header th {
+    color: #ffffff; }
+
+/* line 73, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+.tbl-content {
+  font-family: Josefin Sans;
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border-bottom: solid 1px;
+  border-color: #0958b9;
+  margin-bottom: 100px; }
+
+/* line 82, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+th {
+  font-size: 16px;
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  color: #0958b9;
+  text-transform: uppercase;
+  border-bottom: solid 1px;
+  border-color: #0958b9; }
+
+/* line 92, ../../../xampp/htdocs/nustyle/assets/sass/_pages/services.scss */
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+  border-bottom: solid 1px;
+  border-color: #0958b9; }
+
+/*# sourceMappingURL=services.css.map */

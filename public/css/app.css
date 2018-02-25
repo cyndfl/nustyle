@@ -1,0 +1,59 @@
+.home {
+  background: #f4e5e5; }
+
+.hero {
+  background-image: url(../../img/scott-webb-16957.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 525px;
+  position: relative;
+  z-index: -1;
+  display: block;
+  justify-content: center;
+  align-items: center; }
+
+.navLinks {
+  font-family: Sacramento;
+  font-size: 20px;
+  font-weight: bold; }
+  .navLinks li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px; }
+
+.nav.navbar-nav li a {
+  color: #FF6A6A; }
+
+.nav.navbar-nav li a:hover {
+  color: #6E7B8B; }
+
+.navbar {
+  background-color: #FFDAB9; }
+
+.logo {
+  height: 65px;
+  width: 65px;
+  margin-left: 108px;
+  margin-top: -12px; }
+
+.footer {
+  background: #000; }
+
+.story {
+  background: #000; }
+
+.gal {
+  background: #000; }
+
+.ent {
+  background: #000; }
+
+.det {
+  background: #000; }
+
+.cont {
+  background: #000; }
+
+/*# sourceMappingURL=app.css.map */

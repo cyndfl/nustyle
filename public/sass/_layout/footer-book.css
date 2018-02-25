@@ -1,0 +1,60 @@
+/* line 4, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer-book.scss */
+.ftr__bg {
+  background-image: url(../../img/hrbw.jpg);
+  background-size: cover;
+  background-position: top top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+  /* line 15, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer-book.scss */
+  .ftr__bg p {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center; }
+
+/* line 23, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer-book.scss */
+.btn_appt {
+  margin-top: -100px;
+  margin-left: 520px;
+  display: block; }
+  /* line 27, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer-book.scss */
+  .btn_appt a {
+    font-family: Josefin Sans;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background-color: #0958b9;
+    color: #ffffff;
+    border-color: #0958b9;
+    border-style: solid;
+    border-width: thin;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px; }
+  /* line 43, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer-book.scss */
+  .btn_appt a:hover {
+    background-color: #ffffff;
+    color: #0958b9;
+    border-color: #ffffff; }
+
+/* line 50, ../../../xampp/htdocs/nustyle/assets/sass/_layout/footer-book.scss */
+.ftr__overlay {
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: -154px;
+  height: 230px;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=footer-book.css.map */
