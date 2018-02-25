@@ -2,7 +2,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book Appointment</title>
+  <link rel="icon" type="image/png" href="{{asset('favicon.ico')}}">
+  <title>NU STYLE SALON</title>
 
   <!-- Linking CSS -->
 
@@ -14,7 +15,8 @@
   <link href="{{ asset('/css/paper.css') }}" rel="stylesheet">
   <link href="{{ asset('/css/core.css') }}" rel="stylesheet">
   <link href="{{ asset('/css/normalize.css') }}" rel="stylesheet">
-  
+
+
   <!-- Datepicker css -->
   <link href="{{ asset('/css/calendar.css') }}" rel="stylesheet">
 

@@ -1,0 +1,315 @@
+/* line 4, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+body {
+  background-color: #000000; }
+
+/* line 9, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.appoint {
+  background-image: url(../../img/hero2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+
+/* line 22, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.appoint_overlay {
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  margin-top: -170px;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  /* line 32, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .appoint_overlay p {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px; }
+
+/* line 42, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.hair {
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+  /* line 51, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .hair b {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 60px;
+    z-index: 2;
+    float: left;
+    margin-top: -130px;
+    margin-left: 20px;
+    position: relative; }
+
+/* line 65, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.hair_service .hair {
+  margin-left: -10px;
+  margin-top: 100px; }
+  /* line 68, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .hair_service .hair img {
+    height: 200px;
+    width: 100%;
+    opacity: 0.7; }
+
+/* line 75, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal {
+  margin-left: -10px;
+  height: 500px; }
+
+/* line 81, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close {
+  color: #0958b9;
+  float: left;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 88, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 95, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal-content1 {
+  color: #000000;
+  background-image: url(../../img/hairbw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; }
+  /* line 102, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content1 h4 {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    text-align: center; }
+  /* line 107, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content1 p {
+    font-family: Josefin Sans;
+    font-size: 16px; }
+  /* line 111, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content1 label {
+    color: #ffffff; }
+
+/* line 117, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.foot {
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: -10px;
+  margin-top: 5px; }
+  /* line 128, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .foot b {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 60px;
+    z-index: 2;
+    float: left;
+    margin-top: -130px;
+    margin-left: 20px;
+    position: relative; }
+
+/* line 142, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.foot_service .foot {
+  margin-left: -10px;
+  margin-top: -30px; }
+  /* line 145, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .foot_service .foot img {
+    height: 200px;
+    width: 100%;
+    opacity: 0.7; }
+
+/* line 153, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal {
+  margin-left: -10px; }
+
+/* line 157, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 164, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 171, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal-content2 {
+  color: #000000;
+  background-image: url(../../img/hand&footbw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  /* line 178, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content2 h4 {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    text-align: center; }
+  /* line 183, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content2 p {
+    font-family: Josefin Sans;
+    font-size: 16px; }
+  /* line 187, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content2 label {
+    color: #ffffff; }
+
+/* line 193, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.body {
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%;
+  margin-top: 150px;
+  margin-left: -10px;
+  margin-top: 5px; }
+  /* line 204, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .body b {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 60px;
+    z-index: 2;
+    float: left;
+    margin-top: -130px;
+    margin-left: 20px;
+    position: relative; }
+
+/* line 218, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.body_service .body {
+  margin-left: -10px;
+  margin-top: -10px; }
+  /* line 221, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .body_service .body img {
+    height: 200px;
+    width: 100%;
+    opacity: 0.7; }
+
+/* line 230, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal {
+  margin-left: -10px; }
+
+/* line 234, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 241, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 248, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal-content3 {
+  color: #000000;
+  background-image: url(../../img/bodybw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  /* line 255, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content3 h4 {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    text-align: center; }
+  /* line 260, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content3 p {
+    font-family: Josefin Sans;
+    font-size: 16px; }
+  /* line 264, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content3 label {
+    color: #ffffff; }
+
+/* line 271, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.face {
+  background-repeat: no-repeat;
+  display: block;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+  /* line 280, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .face b {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 60px;
+    z-index: 2;
+    float: left;
+    margin-top: -150px;
+    margin-left: 20px;
+    position: relative; }
+
+/* line 294, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.face_service .face {
+  margin-left: -10px;
+  margin-top: -10px;
+  margin-bottom: 50px; }
+  /* line 298, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .face_service .face img {
+    height: 200px;
+    width: 100%;
+    opacity: 0.7; }
+
+/* line 306, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal {
+  margin-left: -10px; }
+
+/* line 310, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 317, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 324, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+.modal-content4 {
+  color: #000000;
+  background-image: url(../../img/facebw.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  /* line 331, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content4 h4 {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    text-align: center; }
+  /* line 336, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content4 p {
+    font-family: Josefin Sans;
+    font-size: 16px; }
+  /* line 340, ../../../xampp/htdocs/nustyle/assets/sass/_pages/appointment.scss */
+  .modal-content4 label {
+    color: #ffffff; }
+
+/*# sourceMappingURL=appointment.css.map */

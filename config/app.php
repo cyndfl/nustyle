@@ -2,6 +2,10 @@
 
 return [
 
+    'name' => 'NU STYLE SALON',
+
+    'env' => env('APP_ENV', 'development'),
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
@@ -26,7 +30,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost',
+    'url' => env('APP_URL', 'http://local.nustyle-ors'),
 
     /*
     |--------------------------------------------------------------------------

@@ -1,0 +1,41 @@
+$White: #ffffff;
+$Blue: #0958b9;
+$Black: #000000;
+
+.no-padding {
+    padding: 0px;
+}
+.navLinks {
+   font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: bold;
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+    }
+   
+}
+
+.nav.navbar-nav {
+    li a {
+        color: $White;
+    }
+    li a:hover {
+        color: $Blue;
+    }
+    
+}
+
+.navbar {
+    background-color: $Black;
+    border-color: $Black;
+    border-radius: 0px;
+
+}
+
+.logo {
+    height: 50px;
+    width: 200px;
+    margin-top: -12px;
+}

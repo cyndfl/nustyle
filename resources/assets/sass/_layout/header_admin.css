@@ -1,0 +1,36 @@
+/* line 5, assets/sass/_layout/header_admin.scss */
+.no-padding {
+  padding: 0px; }
+
+/* line 8, assets/sass/_layout/header_admin.scss */
+.navLinks {
+  font-family: Josefin Sans;
+  font-size: 16px;
+  font-weight: bold; }
+  /* line 12, assets/sass/_layout/header_admin.scss */
+  .navLinks li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px; }
+
+/* line 21, assets/sass/_layout/header_admin.scss */
+.nav.navbar-nav li a {
+  color: #ffffff; }
+
+/* line 24, assets/sass/_layout/header_admin.scss */
+.nav.navbar-nav li a:hover {
+  color: #0958b9; }
+
+/* line 30, assets/sass/_layout/header_admin.scss */
+.navbar {
+  background-color: #000000;
+  border-color: #000000;
+  border-radius: 0px; }
+
+/* line 37, assets/sass/_layout/header_admin.scss */
+.logo {
+  height: 50px;
+  width: 200px;
+  margin-top: -12px; }
+
+/*# sourceMappingURL=header_admin.css.map */

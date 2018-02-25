@@ -1,0 +1,297 @@
+/* line 6, assets/sass/_pages/home_admin.scss */
+.hero {
+  background-image: url(../../img/hair.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 545px;
+  position: relative;
+  z-index: -1;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px; }
+
+/* line 20, assets/sass/_pages/home_admin.scss */
+.HeaderText {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.8); }
+  /* line 30, assets/sass/_pages/home_admin.scss */
+  .HeaderText h1 {
+    font-family: Josefin Slab;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 150px;
+    color: #ffffff; }
+  /* line 37, assets/sass/_pages/home_admin.scss */
+  .HeaderText p {
+    font-family: Josefin Sans;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #ffffff; }
+
+/* line 49, assets/sass/_pages/home_admin.scss */
+.btn {
+  margin-top: -150px;
+  display: block; }
+  /* line 52, assets/sass/_pages/home_admin.scss */
+  .btn a {
+    font-family: Josefin Sans;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background-color: #0958b9;
+    color: #ffffff;
+    border-color: #0958b9;
+    border-style: solid;
+    border-width: thin;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px; }
+  /* line 68, assets/sass/_pages/home_admin.scss */
+  .btn a:hover {
+    background-color: #ffffff;
+    color: #0958b9;
+    border-color: #ffffff; }
+
+/* line 75, assets/sass/_pages/home_admin.scss */
+.welcome {
+  margin-top: 113px;
+  background-color: #000000; }
+  /* line 78, assets/sass/_pages/home_admin.scss */
+  .welcome h1 {
+    font-family: Josefin Slab;
+    text-align: center;
+    color: #ffffff; }
+  /* line 83, assets/sass/_pages/home_admin.scss */
+  .welcome p {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #ffffff; }
+
+/* line 94, assets/sass/_pages/home_admin.scss */
+.btn_welcome {
+  margin-top: 50px;
+  margin-bottom: -100px;
+  margin-left: 580px;
+  display: block; }
+  /* line 99, assets/sass/_pages/home_admin.scss */
+  .btn_welcome a {
+    font-family: Josefin Sans;
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+    background-color: #0958b9;
+    color: #ffffff;
+    border-color: #0958b9;
+    border-style: solid;
+    border-width: thin;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px; }
+  /* line 115, assets/sass/_pages/home_admin.scss */
+  .btn_welcome a:hover {
+    background-color: #ffffff;
+    color: #0958b9;
+    border-color: #ffffff; }
+
+/* line 122, assets/sass/_pages/home_admin.scss */
+.pictures {
+  background-color: #000000;
+  height: 350px;
+  width: 100%;
+  margin-top: 90px;
+  padding-top: 40px; }
+  /* line 128, assets/sass/_pages/home_admin.scss */
+  .pictures img {
+    width: 410px;
+    height: 200px;
+    margin-top: 50px; }
+  /* line 134, assets/sass/_pages/home_admin.scss */
+  .pictures .services {
+    margin-top: 20px; }
+    /* line 136, assets/sass/_pages/home_admin.scss */
+    .pictures .services img {
+      opacity: 0.3; }
+    /* line 139, assets/sass/_pages/home_admin.scss */
+    .pictures .services b {
+      font-family: Josefin Slab;
+      color: #ffffff;
+      font-size: 40px;
+      z-index: 2;
+      float: left;
+      margin-top: -60px;
+      margin-left: 15px;
+      position: relative; }
+  /* line 152, assets/sass/_pages/home_admin.scss */
+  .pictures .style {
+    margin-left: -15px;
+    margin-top: 20px; }
+    /* line 155, assets/sass/_pages/home_admin.scss */
+    .pictures .style img {
+      opacity: 0.3; }
+    /* line 158, assets/sass/_pages/home_admin.scss */
+    .pictures .style b {
+      font-family: Josefin Slab;
+      color: #ffffff;
+      font-size: 40px;
+      z-index: 2;
+      float: left;
+      margin-top: -60px;
+      margin-left: 870px;
+      position: relative; }
+  /* line 169, assets/sass/_pages/home_admin.scss */
+  .pictures .products {
+    margin-left: -14px;
+    margin-top: 20px; }
+    /* line 172, assets/sass/_pages/home_admin.scss */
+    .pictures .products img {
+      opacity: 0.3; }
+    /* line 175, assets/sass/_pages/home_admin.scss */
+    .pictures .products b {
+      font-family: Josefin Slab;
+      color: #ffffff;
+      font-size: 40px;
+      z-index: 2;
+      float: left;
+      margin-top: -60px;
+      margin-left: 20px;
+      position: relative; }
+
+/* line 189, assets/sass/_pages/home_admin.scss */
+.modal {
+  margin-left: 5px;
+  margin-right: 10px; }
+
+/* line 194, assets/sass/_pages/home_admin.scss */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 201, assets/sass/_pages/home_admin.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 208, assets/sass/_pages/home_admin.scss */
+.modal-content {
+  color: #000000;
+  background-color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px; }
+  /* line 213, assets/sass/_pages/home_admin.scss */
+  .modal-content img {
+    height: 200px;
+    width: 155px;
+    margin-left: 30px; }
+  /* line 218, assets/sass/_pages/home_admin.scss */
+  .modal-content h3 {
+    font-family: Josefin Slab;
+    text-align: center; }
+  /* line 222, assets/sass/_pages/home_admin.scss */
+  .modal-content h4 {
+    font-family: Josefin Slab;
+    text-align: center; }
+  /* line 226, assets/sass/_pages/home_admin.scss */
+  .modal-content p {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    margin-left: 20px; }
+  /* line 231, assets/sass/_pages/home_admin.scss */
+  .modal-content h5 {
+    font-family: Josefin Slab;
+    text-align: justify; }
+
+/* line 237, assets/sass/_pages/home_admin.scss */
+.card {
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s; }
+
+/* line 242, assets/sass/_pages/home_admin.scss */
+.card:hover {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.5); }
+
+/* line 247, assets/sass/_pages/home_admin.scss */
+.modal-footer button {
+  margin-top: 5px;
+  background-color: #0958b9;
+  color: #ffffff;
+  border-color: #ffffff; }
+
+/* line 253, assets/sass/_pages/home_admin.scss */
+.modal-footer button:hover {
+  background-color: #ffffff;
+  color: #0958b9;
+  border-color: #0958b9; }
+
+/* line 260, assets/sass/_pages/home_admin.scss */
+.news {
+  background-color: #000000;
+  height: 450px;
+  width: 100%;
+  margin: auto; }
+  /* line 265, assets/sass/_pages/home_admin.scss */
+  .news h1 {
+    font-family: Josefin Slab;
+    text-align: center;
+    color: #ffffff; }
+  /* line 270, assets/sass/_pages/home_admin.scss */
+  .news h3 {
+    font-family: Josefin Slab;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    color: #0958b9; }
+  /* line 277, assets/sass/_pages/home_admin.scss */
+  .news p {
+    font-family: Josefin Sans;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 50px;
+    color: #ffffff; }
+
+/* line 287, assets/sass/_pages/home_admin.scss */
+.blockquote-wel {
+  display: block;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #0958b9;
+  border-left-style: none;
+  width: 195px;
+  margin-left: 540px;
+  padding-top: 50px; }
+
+/* line 298, assets/sass/_pages/home_admin.scss */
+.blockquote-news {
+  display: block;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #0958b9;
+  border-left-style: none;
+  width: 110px;
+  margin-left: 580px; }
+
+/*# sourceMappingURL=home_admin.css.map */

@@ -1,0 +1,66 @@
+/* line 4, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gal_pic {
+  background-image: url(../../img/stylist.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+
+/* line 17, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gal_overlay {
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  margin-top: -170px;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  /* line 27, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+  .gal_overlay p {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px; }
+
+/* line 39, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.swiper-slide {
+  background-size: cover;
+  background-position: center; }
+
+/* line 45, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gallery-top {
+  margin-top: 100px;
+  height: 500px;
+  width: 900px;
+  background-repeat: no-repeat; }
+
+/* line 52, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gallery-thumbs {
+  height: 120px;
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin-bottom: 100px; }
+
+/* line 59, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4; }
+
+/* line 65, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gallery-thumbs .swiper-slide-active {
+  opacity: 1; }
+
+/* line 69, ../../../xampp/htdocs/nustyle/assets/sass/_pages/gallery.scss */
+.gallery-thumbs .swiper-wrapper {
+  margin-left: calc(-40% - 5px); }
+
+/*# sourceMappingURL=gallery.css.map */

@@ -1,0 +1,241 @@
+/* line 4, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+body {
+  background-color: #000000; }
+
+/* line 9, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.appoint {
+  background-image: url(../../img/hero2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+
+/* line 22, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.appoint_overlay {
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  margin-top: -170px;
+  display: block;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+  /* line 32, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .appoint_overlay p {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 50px; }
+
+/* line 42, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.log {
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+  /* line 51, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .log b {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 60px;
+    z-index: 2;
+    float: left;
+    margin-top: -130px;
+    margin-left: 20px;
+    position: relative; }
+
+/* line 65, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.log_service .log {
+  margin-left: -10px;
+  margin-top: 100px; }
+  /* line 68, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .log_service .log img {
+    height: 200px;
+    width: 100%; }
+
+/* line 75, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.modal {
+  margin-left: -10px;
+  height: 500px; }
+
+/* line 80, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.close {
+  color: #0958b9;
+  float: left;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 88, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 95, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.modal-content-Log {
+  color: #000000;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; }
+  /* line 103, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .modal-content-Log h4 {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    text-align: center;
+    font-size: 30px; }
+  /* line 109, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .modal-content-Log p {
+    font-family: Josefin Sans;
+    font-size: 16px; }
+  /* line 113, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .modal-content-Log label {
+    color: #ffffff; }
+
+/* line 117, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.form-group {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 50px; }
+
+/* line 123, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.form-group-uname {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px; }
+
+/* line 130, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.button-log button {
+  margin-top: 5px;
+  background-color: #0958b9;
+  color: #ffffff;
+  border-color: #ffffff;
+  margin-left: 180px; }
+
+/* line 138, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.button-log button:hover {
+  background-color: #ffffff;
+  color: #0958b9;
+  border-color: #0958b9; }
+
+/* line 146, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.reg {
+  background-repeat: no-repeat;
+  z-index: 0;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  height: 230px;
+  width: 100%; }
+  /* line 155, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .reg b {
+    font-family: Josefin Slab;
+    color: #ffffff;
+    font-size: 60px;
+    z-index: 2;
+    float: left;
+    margin-top: -130px;
+    margin-left: 20px;
+    position: relative; }
+
+/* line 169, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.reg_service .reg {
+  margin-left: -10px;
+  margin-top: 100px; }
+  /* line 172, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .reg_service .reg img {
+    height: 200px;
+    width: 100%; }
+
+/* line 179, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.modal {
+  margin-left: -10px;
+  height: 500px; }
+
+/* line 185, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.close {
+  color: #0958b9;
+  float: left;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 193, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 200, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.modal-content-reg {
+  color: #000000;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left; }
+  /* line 208, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .modal-content-reg h4 {
+    font-family: Josefin Slab;
+    color: #0958b9;
+    text-align: center;
+    font-size: 30px; }
+  /* line 214, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .modal-content-reg p {
+    font-family: Josefin Sans;
+    font-size: 16px; }
+  /* line 218, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+  .modal-content-reg label {
+    color: #ffffff; }
+
+/* line 222, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.form-group {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px; }
+
+/* line 228, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.form-group-fname {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px; }
+
+/* line 234, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.form-group-pos {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+
+/* line 241, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.date {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px; }
+
+/* line 248, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.button-reg button {
+  margin-top: 5px;
+  background-color: #0958b9;
+  color: #ffffff;
+  border-color: #ffffff;
+  margin-left: 120px; }
+
+/* line 256, ../../../xampp/htdocs/nustyle/assets/sass/_pages/stylist.scss */
+.button-reg button:hover {
+  background-color: #ffffff;
+  color: #0958b9;
+  border-color: #0958b9; }
+
+/*# sourceMappingURL=stylist.css.map */

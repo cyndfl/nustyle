@@ -3,6 +3,7 @@
 <div class="container">
 	<div class="row">
 		<legend>Packages</legend>
+		<td><a href="" class="btn btn-primary">ADD</a></td>
 		<table class="table table-striped table-hover">
 			<thead>
 				<tr>

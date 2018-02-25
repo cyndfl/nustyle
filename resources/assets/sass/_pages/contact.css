@@ -1,0 +1,164 @@
+/* line 4, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.contact {
+  background-color: #000000;
+  height: 500px; }
+
+/* line 9, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.map {
+  z-index: 2;
+  margin-left: 450px;
+  margin-top: -500px; }
+
+/* line 15, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.email h1 {
+  color: #ffffff;
+  font-family: Josefin Slab;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px; }
+
+/* line 23, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.box1 {
+  height: 450px;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 4px rgba(125, 125, 125, 0.7); }
+  /* line 32, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box1 img {
+    height: 250px;
+    width: 350px;
+    margin-left: 15px;
+    margin-top: 10px; }
+  /* line 38, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box1 h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #0958b9;
+    font-family: Josefin Slab;
+    margin-top: 25px; }
+  /* line 45, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box1 p {
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Josefin Sans;
+    text-align: center; }
+  /* line 51, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box1 .icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: -2px; }
+
+/* line 59, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.box2 {
+  height: 450px;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: -500px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 4px rgba(125, 125, 125, 0.7); }
+  /* line 68, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box2 img {
+    height: 250px;
+    width: 350px;
+    margin-left: 15px;
+    margin-top: 10px; }
+  /* line 74, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box2 h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #0958b9;
+    font-family: Josefin Slab;
+    margin-top: 25px; }
+  /* line 81, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box2 p {
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Josefin Sans;
+    text-align: center; }
+  /* line 87, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box2 .icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: -2px; }
+
+/* line 96, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.box3 {
+  height: 450px;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: -500px;
+  margin-left: 435px;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 4px rgba(125, 125, 125, 0.7); }
+  /* line 105, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box3 img {
+    height: 250px;
+    width: 350px;
+    margin-left: 15px;
+    margin-top: 10px; }
+  /* line 111, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box3 h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #0958b9;
+    font-family: Josefin Slab;
+    margin-top: 25px; }
+  /* line 118, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box3 p {
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Josefin Sans;
+    text-align: center; }
+  /* line 124, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box3 .icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: -2px; }
+
+/* line 133, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+.box4 {
+  height: 450px;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: -500px;
+  margin-left: 845px;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 4px rgba(125, 125, 125, 0.7); }
+  /* line 142, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box4 img {
+    height: 250px;
+    width: 350px;
+    margin-left: 15px;
+    margin-top: 10px; }
+  /* line 148, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box4 h4 {
+    font-size: 20px;
+    text-align: center;
+    color: #0958b9;
+    font-family: Josefin Slab;
+    margin-top: 25px; }
+  /* line 155, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box4 p {
+    font-size: 14px;
+    margin-left: 15px;
+    font-family: Josefin Sans;
+    text-align: center; }
+  /* line 161, ../../../xampp/htdocs/nustyle/assets/sass/_pages/contact.scss */
+  .box4 .icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 1px;
+    margin-left: -2px; }
+
+/*# sourceMappingURL=contact.css.map */
