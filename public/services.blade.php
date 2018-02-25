@@ -1,6 +1,18 @@
 <?php
 include("header.blade.php");
 ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       @media only screen and (min-width: 1400px) {
+.port_nav li{
+ font-size: 20px;
+}
+       }
+   </style>
+</head>
 <body>
 <div class="serv_pic">
 </div>
@@ -52,8 +64,8 @@ include("header.blade.php");
     <tr>
       <th scope="row"><b>HAIRCUT</b></th>
       <td>50</td>
-      <td>-</td>
-      <td>-</td>   
+      <td>70</td>
+      <td>90</td>   
     </tr>
     
     <tr>
@@ -66,43 +78,43 @@ include("header.blade.php");
     <tr>
       <th scope="row"><b>HAIRSPA (ANY LENGTH)</b></th>
       <td>250</td>
-      <td>-</td>
-      <td>-</td>
+      <td>300</td>
+      <td>350</td>
     </tr>
     
     <tr>
       <th scope="row"><b>HAIR REVITALIZE</b></th>
       <td>300</td>
-      <td>-</td>
-      <td>-</td>
+      <td>350</td>
+      <td>400</td>
     </tr>
     
      <tr>
       <th scope="row"><b>INTENSIVE TREATMENT</b></th>
       <td>350</td>
-      <td>-</td>
-      <td>-</td>
+      <td>400</td>
+      <td>450</td>
     </tr>
      
       <tr>
       <th scope="row"><b>SEMIDELINO (1 VIAL)</b></th>
       <td>400</td>
-      <td>-</td>
-      <td>-</td>
+      <td>450</td>
+      <td>500</td>
     </tr>
     
      <tr>
       <th scope="row"><b>SEMIDELINO (2 VIALS)</b></th>
       <td>700</td>
-      <td>-</td>
-      <td>-</td>
+      <td>750</td>
+      <td>800</td>
     </tr>
     
      <tr>
       <th scope="row"><b>CELLOPHANE</b></th>
       <td>400</td>
-      <td>-</td>
-      <td>-</td>
+      <td>450</td>
+      <td>500</td>
     </tr>
     
      <tr>
@@ -115,8 +127,8 @@ include("header.blade.php");
      <tr>
       <th scope="row"><b>HIGHLIGHTS</b></th>
       <td>250 - 400</td>
-      <td>-</td>
-      <td>-</td>
+      <td>420 - 600</td>
+      <td>620 - 800</td>
     </tr>
     
      <tr>
@@ -129,22 +141,22 @@ include("header.blade.php");
      <tr>
       <th scope="row"><b>HAIR RELAX + KERATIN</b></th>
       <td>450</td>
-      <td>-</td>
-      <td>-</td>
+      <td>500</td>
+      <td>550</td>
     </tr>
     
      <tr>
       <th scope="row"><b>HAIR RELAX + CELLOPHANE</b></th>
       <td>750</td>
-      <td>-</td>
-      <td>-</td>
+      <td>800</td>
+      <td>850</td>
     </tr>
     
      <tr>
       <th scope="row"><b>HAIR REBONDING (ANY LENGTH)</b></th>
       <td>1,500</td>
-      <td>-</td>
-      <td>-</td>
+      <td>1,700</td>
+      <td>2,000</td>
     </tr>
     
      <tr>
@@ -288,8 +300,9 @@ include("header.blade.php");
 </section>
 </div>
 </div>
-    
+
 </body>
+</html>
 <?php
 include("footer-book.blade.php");
 ?>
