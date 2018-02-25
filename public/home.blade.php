@@ -1,9 +1,47 @@
 <?php
 include("header.blade.php");
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       @media only screen and (min-width: 1400px) {
+.blockquote-wel{
+    margin-left: 620px;
+}
+.blockquote-news{
+    margin-left: 660px;
+}
+div.btn_welcome a{
+    margin-left: 70px;
+}
+div.services img{
+width: 450px;
+margin-left: 36px;
+}
+div.products img{
+width: 450px;
+margin-left: 20px;
+}
+div.style img{
+width: 450px;
+margin-left: 3px;
+}
+div.services b{
+padding-left: 35px;
+}
+div.products b{
+padding-left: 20px;
+}
+div.style b{
+padding-left: 115px;
+}
+       }
+   </style>
+</head>
+
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 
 <section class="hero">
     <div class="container">
@@ -176,17 +214,17 @@ include("header.blade.php");
         <h3><b>FEBRUARY 14, 2018</b></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, itaque.</p>
     </div>
-    <div class="news3 col-md-4">
+    <div class="news3 col-md-4" style="float: right;">
         <h3><b>FEBRUARY 28, 2018</b></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, ea.</p>
     </div>
 
 
-    <div class="news4 col-md-4">
+    <div class="news4 col-md-4" style="float: right;">
         <h3><b>MARCH 15, 2018</b></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, minus.</p>
     </div>
-    <div class="news5 col-md-4">
+    <div class="news5 col-md-4" style="float: left;">
         <h3><b>MARCH 27, 2018</b></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, itaque.</p>
     </div>
@@ -205,3 +243,4 @@ include("footer-book.blade.php");
 <?php
 include("footer.blade.php");
 ?>
+</html>

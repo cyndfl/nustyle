@@ -1,5 +1,6 @@
 @extends('admin/layout')
 @section('content')
+
 <div class="container">
 	<h1>Configuration</h1>
 </div>

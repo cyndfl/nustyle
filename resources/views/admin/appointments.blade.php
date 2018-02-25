@@ -1,5 +1,6 @@
 @extends('admin/layout')
 @section('content')
+
 <div class="col-lg-8">
 	<div id="error"></div>
 	<div id="calendar"></div>

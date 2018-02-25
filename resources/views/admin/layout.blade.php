@@ -45,4 +45,24 @@
   </nav>
   @yield('content')
 </body>
+
+<style>
+div.container-fluid{
+  background-color: black;
+}
+div.navbar-collapse .navbar-nav li a{
+color: white;
+}
+div.navbar-collapse .navbar-nav li a:hover{
+color: #0958b9;
+}
+div.navbar-header .navbar-brand{
+color: white;
+}
+div.navbar-header .navbar-brand:hover{
+color: #0958b9;
+}
+
+</style>
 </html>
+

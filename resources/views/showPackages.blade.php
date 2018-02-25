@@ -1,6 +1,8 @@
 @extends('layout')
 @section('content')
-
+<?php
+include("header.blade.php");
+?>
   
   <div class="row text-center">
   <h1>Select Package</h1>
@@ -20,5 +22,8 @@
 </div>
   @endforeach
 </div>
- 
+ <?php
+include("footer.blade.php");
+?>
 @stop
+

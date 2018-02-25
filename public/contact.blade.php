@@ -2,6 +2,33 @@
 include("header.blade.php");
 ?>
 
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       @media only screen and (min-width: 1400px) {
+.map{
+	margin-left: 550px;
+}
+.box1{
+	margin-left: 150px;
+}
+.box2{
+	margin-left: 110px;
+}
+.box3{
+	margin-left: 530px;
+}
+.box4{
+	margin-left: 950px;
+}
+.email h1{
+	font-size: 30px;
+}
+       }
+   </style>
+</head>
+
 <div class="about_pic">
 </div>
 
@@ -63,7 +90,7 @@ include("header.blade.php");
 
 
 </div>
-
+</html>
 <?php
 include("footer-book.blade.php");
 ?>

@@ -1,3 +1,5 @@
+
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -41,4 +43,27 @@
 
 
 </body>
+<style>
+body{
+  background-color:black;
+}
+
+.panel{
+  margin-top:50px;
+color:black;
+}
+
+.jumbotron{
+background-color:black;
+color: white;
+}
+div.row h1{
+  color: #0958b9;
+}
+
+.alert{
+  background-color:#0958b9;
+}
+
+</style>
 </html>

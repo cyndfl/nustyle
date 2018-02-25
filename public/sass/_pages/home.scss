@@ -282,7 +282,22 @@ $Black: #000000;
         color: $White;
     }
 }
-
+.news5{
+    h3 {
+        font-family: Josefin Slab;
+        text-align: center;
+        font-size: 25px;
+        color: $Blue;
+    }
+    p {
+        font-family: Josefin Sans;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 50px;
+        color: $White;
+    }
+}
 .blockquote-wel {
     display: block;
     border-bottom-width: 1px;
