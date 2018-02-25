@@ -65,5 +65,21 @@ div.row h1{
   background-color:#0958b9;
 }
 
+/*CUSTOMER*/
+div.jumbotron h3{
+  color: white;
+}
+
+div.row fieldset legend{
+color: #0958b9;
+margin-top: 10px;
+}
+
+div.jumbotron h1{
+  color: #0958b9;
+}
+div.jumbotron p{
+  color: white;
+}
 </style>
 </html>

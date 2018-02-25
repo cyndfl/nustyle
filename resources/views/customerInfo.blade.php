@@ -8,7 +8,7 @@
   <h3> {{ $dateFormat }} </h3>
 
 </div>
-<br><br><br>
+<br>
 <!-- <div class="col-md-6 center-block" style="float:none;"> -->
 <div class="row col-md-6 center-block" style="float:none;">
     
@@ -25,7 +25,7 @@
   <div class="form-group">
     <label for="fname" class="col-lg-2 control-label">First Name</label>
     <div class="col-lg-10">
-      <input type="text" class="form-control" name="fname" id="fname" placeholder="First">
+      <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name">
     </div>
   </div>
   
@@ -33,7 +33,7 @@
   <div class="form-group">
     <label for="lname" class="col-lg-2 control-label">Last Name</label>
     <div class="col-lg-10">
-       <input type="text" class="form-control" name="lname" id="lname" placeholder="Last">
+       <input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name">
     </div>
   </div>
   
@@ -41,7 +41,7 @@
   <div class="form-group">
     <label for="number" class="col-lg-2 control-label">Contact Number</label>
     <div class="col-lg-10">
-       <input type="text" class="form-control" name="number" id="number" placeholder="5555555555">
+       <input type="text" class="form-control" name="number" id="number" placeholder="12345">
     </div>
   </div>
   
