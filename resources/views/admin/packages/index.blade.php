@@ -2,8 +2,8 @@
 @section('content')
 <div class="container">
 	<div class="row">
-		<legend>Packages</legend>
-		<td><a href="" class="btn btn-primary">ADD</a></td>
+		<legend>Services</legend>
+		<td><a href="{{ url('admin/add-package/')}}" class="btn btn-primary">ADD NEW SERVICE</a></td>
 		<table class="table table-striped table-hover">
 			<thead>
 				<tr>
@@ -21,7 +21,8 @@
 					<td>{{ '$'.$p->package_price }}</td>
 					<td>{{ $p->package_time.' hours' }}</td>
 					<td>{{ $p->package_description }}</td>
-					<td><a href="{{ url('admin/edit-package/'.$p->id) }}" class="btn btn-primary">Edit</a></td>
+					<td><a href="{{ url('admin/edit-package/'.$p->id) }}" class="btn btn-primary">Edit</a>
+					<a href="{{ url('admin/edit-package/'.$p->id) }}" class="btn btn-primary">Delete</a></td>
 				</tr>
 				@endforeach
 			</tbody>

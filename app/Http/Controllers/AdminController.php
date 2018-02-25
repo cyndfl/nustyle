@@ -60,6 +60,12 @@ class AdminController extends Controller {
     return view('admin/packages/index', ['packages' => $packages]);
   }
 
+  public function addPackage()
+  {
+    $packages = Package::all();
+    return view('admin/packages/addPackage');
+  }
+
   /**
    * View Function to edit package information
    * @param  int $package_id

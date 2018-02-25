@@ -41,6 +41,7 @@ Route::group(['prefix' => 'admin'], function()
 
 	// Package Routes
 	Route::get('packages', 'AdminController@packages');
+	Route::post('add-package', 'AdminController@addPackage');
 	Route::get('edit-package/{package_id}', 'AdminController@editPackage');
 	Route::post('update-package/{package_id}', array('as' => 'package.update'), 'AdminController@updatePackage');
 });
