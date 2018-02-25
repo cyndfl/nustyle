@@ -27,7 +27,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Nu Style Admin</a>
+        <a class="navbar-brand" href="{{ url('admin/appointments') }}">Nu Style Admin</a>
       </div>
 
       <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">

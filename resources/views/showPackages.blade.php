@@ -11,10 +11,10 @@ include("header.blade.php");
     <div class="col-md-4 center-block" style="float:none;">
     <div class="panel panel-default">
       <div class="panel-heading">
-    <p><b>Package: </b><a href="booking/calendar/{{ $package->id }}">{{ $package->package_name }}</a><br>
+    <p><b>Service: </b><a href="booking/calendar/{{ $package->id }}">{{ $package->package_name }}</a><br>
       </div>
       <div class="panel-body">
-    <b>Time: </b>{{ $package->package_time }} hours<br>
+    <b>Time: </b>{{ $package->package_time }} mins<br>
     <b>Price: </b>{{ $package->package_price }}<br>
     <b>Description: </b>{{ $package->package_description }}</p>
     </div>
